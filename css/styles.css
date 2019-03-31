@@ -1,0 +1,731 @@
+/*homepage css*/
+
+/*header css*/
+header p{
+	font-size: 15px;
+	background-color: #f8f8f8;
+	color: #908b8b;
+	font-family: helvetica, sans-serif, arial;
+	text-align: center;
+	padding: 5px;
+}
+.login{
+	position: relative;
+	top: 10px;
+	font-size: 15px;
+	font-family: helvetica, sans-serif, arial;
+	color: #034804;
+	text-align: center;
+}
+
+.stella{
+	font-size: 30px;
+	font-family: kefa, sans-serif, arial;
+	color: #034804;
+	text-align: center;
+}
+
+.favorite{
+	position: relative;
+	top: 8px;
+	font-size: 20px;
+	color: #034804;
+	text-align: right;
+}
+
+.shopping{
+	position: relative;
+	top: 8px;
+	font-size: 20px;
+	color: #034804;
+	text-align: left;
+}
+
+/*navigation css*/
+nav{
+	width: 100%;
+	background: #f8f8f8;
+}
+
+ul{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+}
+
+ul li:hover{
+	background: #ffffff;
+}
+
+ul li a{
+	color: #034804;
+	font-size: 18px;
+	font-family: helvetica, sans-serif, arial;
+	padding-right: 18px;
+}
+
+ul li a:link{
+	text-decoration: none;
+}
+
+.toggle{
+	width: 100%;
+	padding: 10px 20px;
+	background: #ffffff;
+	text-align: center;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 20px;
+	display: none;
+}
+
+#burger{
+	width: 20%;
+	color: #034804;
+}
+
+#brand{
+	position: relative;
+	bottom: 5px;
+	width: 60%;
+	color: #034804;
+	font-family: kefa, sans-serif, arial;
+	font-size: 25px;
+	text-align: center;
+}
+
+#search{
+	width: 10%;
+	color: #034804;
+}
+
+#shopping{
+	width: 10%;
+	color: #034804;
+}
+
+nav .search-container{
+	float: right;
+}
+
+nav input[type=text] {
+  padding: 6px;
+  margin-top: 11px;
+  font-size: 15px;
+  border: none;
+}
+
+nav .search-container button {
+  float: right;
+  padding: 4.5px 8px;
+  margin-top: 11px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+nav .search-container button:hover {
+  background: #ccc;
+}
+
+@media (max-width: 768px){
+	header .fluid-container{
+		display: none;
+	}
+	.toggle{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	ul{
+		width: 100%;
+		display: none;
+	}
+	ul li{
+		display: block;
+		text-align: center;
+	}
+	.active{
+		display: block;
+	}
+}
+
+@media (max-width: 992px){
+	nav .search-container{
+		display: none;
+	}
+}
+
+/*main part css*/
+.promotion{
+	position: relative;
+	bottom: 20px;
+    background-image: url(../images/girl.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+	font-size: 50px;
+	font-family: helvetica neue, arial black, sans-serif;
+	color: #fefefe;
+	padding-top: 15%;
+	padding-left: 5%;
+}
+
+.percent{
+	font-size: 100px;
+	display: inline-block;
+}
+
+h2{
+	font-size: 30px;
+	font-family: helvetica neue, arial black, sans-serif;
+	color: #fefefe;
+	padding-top: 40px;
+	padding-left: 15%;
+	padding-bottom: 10%;
+}
+
+.promotion a{
+	text-decoration: none;
+	font-size: 30px;
+	color: #034804;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	border: 4px solid #939393;
+	margin-left: 14.5%;
+}
+
+.subtitle{
+	text-align: center;
+}
+
+h3{
+	font-size: 40px;
+	font-family: helvetica, sans-serif, arial;
+	color: #034804;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    position: relative;
+	bottom: 10px;
+	display: inline-block;
+	text-align: right; 
+	line-height: 0.1em;
+	margin:10px 30px;
+}
+
+hr {
+	display: inline-block;
+	width: 10%;
+	height: 2px;
+	background-color: #034804;
+}
+
+.product{
+	width: 60%;
+}
+
+.special{
+	text-align: center;
+}
+
+h4{
+	font-size: 30px;
+	font-family: helvetica, sans-serif, arial;
+	color: #000000;
+	padding: 3px 5px;
+}
+
+.ml{
+	font-size: 25px;
+}
+
+.intro{
+	font-size: 25px;
+	padding: 5px 15px;
+}
+
+.price{
+	font-size: 25px;
+}
+
+.space{
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+.story{
+	width: 100%;
+}
+
+.storyintro1{
+	box-sizing: border-box;
+	background-image: url(../images/leafbackground.png);
+	background-size: 100% 100%;
+	padding: 10% 10%;
+}
+
+.storyintro2{
+	box-sizing: border-box;
+	background-image: url(../images/botanichand.jpg);
+	background-size: 100% 100%;
+	padding: 10% 10%;
+	clear: both;
+}
+
+h5{
+	font-size: 35px;
+	font-family: helvetica, sans-serif, arial;
+	color: #000000;
+	padding-bottom: 10%; 
+}
+
+.introtext{
+	font-size: 25px;
+	font-family: helvetica, sans-serif, arial;
+	color: #000000;
+	padding: 0 15% 8% 15%;
+}
+
+.learn{
+	font-size: 25px;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 5px 10px;
+	border: 3px solid #939393;
+}
+
+.information{
+	background-color: #f8f8f8;
+	margin-top: 5%;
+	padding: 2% 2%;
+}
+.socialmedia{
+	text-align: center;
+}
+
+.membership{
+	text-align: center;
+}
+
+.info{
+	text-align: center;
+}
+
+h6{
+	font-size: 30px;
+	font-family: helvetica, sans-serif, arial;
+	color: #034804;
+	padding-bottom: 2%;
+	padding-top: 5%;
+}
+
+.socialmedia a{
+	color: #708d9f;
+	font-size: 20px;
+}
+
+.socialmedia a:hover{
+	color: #034804;
+}
+
+.membership a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+	background-color: #034804;
+	padding: 5px 10px;
+	border: 3px solid #939393;
+}
+
+.membership p{
+	font-size: 20px;
+	color: #034804;
+	padding-top: 30px;
+}
+
+.info a{
+	color: #708d9f;
+	font-size: 15px;
+}
+
+@media (max-width: 992px){
+	.promotion{
+    height: 750px;
+    }
+    h1{
+    	font-size: 35px;
+    }
+    .percent{
+	font-size: 70px;
+    }
+    h2{
+    	font-size: 25px;
+    }
+    .promotion a{
+    	font-size: 25px;
+		color: #034804;
+		background-color: #ffffff;
+		padding: 5px 10px;
+		border: 3px solid #939393;
+		margin-left: 14.5%;
+    }
+	h3{
+	font-size: 35px;
+	padding-top: 60px;
+    padding-bottom: 25px;
+    }
+    h4{
+    font-size: 25px;
+    }
+    .ml{
+	font-size: 20px;
+	}
+
+	.intro{
+		font-size: 20px;
+	}
+
+	.price{
+		font-size: 20px;
+	}
+	.image{
+		display: none;
+	}
+	h5{
+		font-size: 30px;
+	}
+	.introtext{
+		font-size: 20px;
+	}
+	.learn{
+		font-size: 20px;
+		border: 2px solid #939393;
+    }
+}
+
+@media (max-width: 768px){
+	.promotion{
+    height: 425px;
+    }
+    h1{
+    	font-size: 25px;
+    }
+    .percent{
+	font-size: 50px;
+    }
+    h2{
+    	font-size: 15px;
+    }
+    .promotion a{
+    	font-size: 15px;
+		color: #034804;
+		background-color: #ffffff;
+		padding: 5px 10px;
+		border: 2px solid #939393;
+		margin-left: 14.5%;
+    }
+	h3{
+		font-size: 30px;
+		padding-top: 50px;
+    	padding-bottom: 20px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	.ml{
+	font-size: 15px;
+	}
+
+	.intro{
+		font-size: 15px;
+	}
+
+	.price{
+		font-size: 15px;
+	}
+	h5{
+		font-size: 25px;
+	}
+	.introtext{
+		font-size: 15px;
+	}
+	.learn{
+	font-size: 15px;
+	border: 2px solid #939393;
+    }
+    .information{
+    	padding-top: 0;
+    }
+    h6{
+    	font-size: 25px;
+    }
+    .socialmedia a{
+    	font-size: 15px;
+    }
+    .membership a{
+    	font-size: 15px;
+    }
+    .membership p{
+    	font-size: 15px;
+    }
+    .info a{
+    	font-size: 15px;
+    }
+}
+
+/*footer css*/
+footer p{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	font-family: helvetica, sans-serif, arial;
+	padding-top: 3%;
+}
+@media (max-width: 992px){
+	footer p{
+		font-size: 15px;
+	}
+}
+
+
+/*bath page css*/
+
+/*product css*/
+.container{
+	width: 70%;
+	padding-top: 3%;
+}
+
+.block{
+	background-color: #eeede9;
+	background-image: linear-gradient(#c6c4bb, #ffffff);
+	margin-bottom: 20px;
+}
+
+.category{
+	font-size: 25px;
+	font-family: helvetica, sans-serif, arial;
+	color: #034804;
+}
+.category:hover{
+	color: #708d9f;
+}
+.bath{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.bg{
+	background-color: #f8f8f8;
+}
+
+.bg p{
+	font-size: 20px;
+	font-family: helvetica, sans-serif, arial;
+	color: #000000;
+	padding-bottom: 3px;
+}
+
+.bg p:hover{
+	color: #708d9f;
+}
+
+.viewmore{
+	float: right;
+	font-size: 15px;
+	background-color: #eeede9;
+	font-family: helvetica, sans-serif, arial;
+	color: #034804;
+	padding: 10px 10px;
+}
+
+.viewmore:hover{
+	color: #708d9f;
+}
+
+.shampoophoto{
+	max-width: 80px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.conditionerphoto{
+	max-width: 70px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.gelphoto{
+	max-width: 200px;
+	padding-bottom: 10px;
+}
+
+/*article, donation and promotion css*/
+.skincare{
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.skincare img{
+	width: 100%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.skincare a{
+	font-size: 25px;
+	font-family: helvetica neue, arial black, sans-serif;
+	color: #000000;
+}
+
+.skincare a:hover{
+	color: #708d9f;
+}
+
+.summary{
+	font-size: 15px;
+	font-family: helvetica, arial black, sans-serif;
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.christmas{
+	background-image: url(../images/christmasbg.jpg);
+	background-size: 100% 100%;
+	padding-left: 5%;
+	padding-top: 30px;
+}
+
+.christmas a{
+	font-size: 25px;
+	font-family: helvetica neue, arial black, sans-serif;
+	color: #ffffff;
+}
+
+.christmas a:link{
+	text-decoration: none;
+}
+.christmas p{
+	font-size: 15px;
+	font-family: helvetica, arial black, sans-serif;
+	color: #ffffff;
+	padding-left: 3%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.donation{
+	background-color: #f8f8f8;
+}
+
+.donation img{
+	width: 40%;
+	float: left;
+    padding-top: 4%;
+    padding-left: 2%;
+}
+
+.donation p{
+	font-size: 25px;
+	font-family: helvetica, arial black, sans-serif;
+	color: #000000;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+@media (max-width: 992px){
+	.donation img{
+		width: 50%;
+	}
+	.donation p{
+		font-size: 20px;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+}
+@media (max-width: 768px){
+	.donation img{
+		width: 100%;
+	}
+	.donation p{
+		font-size: 15px;
+	}
+}
+
+
+/*body page css*/
+.lotionphoto{
+	max-width: 140px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.body{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.creamphoto{
+	max-width: 200px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+/*handcare page css*/
+.handphoto{
+	max-width: 80px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.handcare{
+	text-align: center;
+	padding-top: 30px;
+}
+
+/*contact page css*/
+
+.infosupport{
+	font-size: 25px;
+	font-family: helvetica, sans-serif, arial;
+	color: #034804;
+}
+
+.contactform p{
+	font-size: 15px;
+	font-family: helvetica, sans-serif, arial;
+	color: #000000;
+	line-height: 30px;
+}
+
+.infolist ul li{
+	display: inline-block;
+}
+
+.btn{
+	background-color: #034804;
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.contactpage{
+	background-color: #f8f8f8;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
